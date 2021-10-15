@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIFE MANAGER"
+                android:textStyle="bold"
+                android:textColor="@color/primaire1"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="25dp"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:src="@drawable/image1"
+                android:layout_gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Email "
+                android:textColor="@color/primaire1"
+                android:textColorHint="@color/primaire1"
+                android:shadowColor="@color/primaire1"
+                android:padding="15dp"
+                android:id="@+id/email_login"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Mot de passe "
+                android:inputType="textPassword"
+                android:shadowColor="@color/primaire1"
+                android:textColor="@color/primaire1"
+                android:textColorHint="@color/primaire1"
+                android:padding="15dp"
+                android:id="@+id/password_login"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Connexion"
+                android:background="@color/primaire1"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_login"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mot de passe oublié ?"
+                android:padding="5dp"
+                android:textColor="@color/primaire1"
+                android:id="@+id/forget_password"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Créer un nouveau compte ici ."
+                android:padding="5dp"
+                android:textColor="@color/primaire1"
+                android:id="@+id/signup_reg"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

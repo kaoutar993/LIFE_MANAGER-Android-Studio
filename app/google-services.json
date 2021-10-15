@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "794066843028",
+    "project_id": "life-manager-dcf58",
+    "storage_bucket": "life-manager-dcf58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794066843028:android:f4f9287e1e6a9928794b81",
+        "android_client_info": {
+          "package_name": "com.khadija.makhchoun.lifemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794066843028-91ttdu0bc1td9k4chgt2352r65ol24qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khadija.makhchoun.lifemanager",
+            "certificate_hash": "100d7a54c704217e6039a91cea75959ceb770e4c"
+          }
+        },
+        {
+          "client_id": "794066843028-g1oaon43mnlnqdu801r32m3c57n8mpfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-abBj1PEC9Z-xl8lpY0Duq4aDUpD5uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794066843028-g1oaon43mnlnqdu801r32m3c57n8mpfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

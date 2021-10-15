@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="@string/dashboard"
+        android:visible="true" />
+    <item
+        android:id="@+id/notes"
+        android:icon="@drawable/blocnotes"
+        android:title="@string/notes"
+        android:visible="true" />
+    <item
+        android:id="@+id/todolist"
+        android:icon="@drawable/todolist"
+        android:title="@string/to_do_list"
+        android:visible="true" />
+    <item
+        android:id="@+id/budget"
+        android:icon="@drawable/budget"
+        android:title="@string/budget"
+        android:visible="true" />
+    <item
+        android:id="@+id/documents"
+        android:icon="@drawable/documents"
+        android:title="@string/documents"
+        android:visible="true" />
+    <item android:id="@+id/logout"
+        android:title="Déconnexion"
+        android:icon="@drawable/deconnexion"/>
+
+</menu>

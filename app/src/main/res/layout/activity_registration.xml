@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Créez un nouveau compte :"
+                android:paddingLeft="15dp"
+                android:textColor="@color/primaire1"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="45dp"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Email "
+                android:textColor="@color/primaire1"
+                android:textColorHint="@color/primaire1"
+                android:padding="15dp"
+                android:id="@+id/email_reg"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Mot de passe "
+                android:inputType="textPassword"
+                android:textColor="@color/primaire1"
+                android:textColorHint="@color/primaire1"
+                android:padding="15dp"
+                android:id="@+id/password_reg"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="S'inscrire"
+                android:background="@color/primaire1"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_reg"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Vous avez déja un compte ! Connectez-vous ici ."
+                android:padding="5dp"
+                android:textColor="@color/primaire1"
+                android:id="@+id/signin_here"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

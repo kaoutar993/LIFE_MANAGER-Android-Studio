@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dashboard_color">#567</color>
+    <color name="income_color">#982</color>
+    <color name="expense_color">#c50</color>
+    <color name="menu">#FFFFC107</color>
+    <color name="plus">#FF33E33A</color>
+    <color name="bottom_menu">#333439</color>
+    <color name="moins">#FFDD1C0D</color>
+    <color name="date_color">#FF270648</color>
+    <color name="expense_amount">#FFEC1D06</color>
+    <color name="colorPrimary">#b18f2e</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="primaire">#51238E</color>
+    <color name="delete_data_color_bg">#D0B5E4</color>
+
+    <color name="update_color">#2D33BF</color>
+    <color name="update_color_bg">#C2BEF2</color>
+
+    <color name="rate_app_color">#2D33BF</color>
+    <color name="rate_app_color_bg">#C2BEF2</color>
+
+    <color name="logout_color">#C9294F</color>
+    <color name="logout_color_bg">#F8D5E3</color>
+
+    <color name="delete_dialog">#FF5F63</color>
+    <color name="delete_dialog_bg">#FFD5D6</color>
+    <color name="ripple">#E9F8FF</color>
+    <color name="primaire1">#61204D</color>
+    <color name="primaire2">#AA8D8B</color>
+    <color name="primaire3">#b18f2e</color>
+    <color name="primaire4">#c5087c</color>
+
+</resources>

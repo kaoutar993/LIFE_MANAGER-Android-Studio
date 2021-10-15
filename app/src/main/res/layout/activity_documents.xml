@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Documents">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primaire1"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottommenu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Mes Documents"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:background="@color/primaire1"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:textSize="30dp"
+        android:id="@+id/text1"
+        android:textColor="#F5F1F9"
+        />
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Rechercher"
+        android:layout_marginTop="100dp"
+        android:textCursorDrawable="@null"
+        android:background="#F1E2FC"
+        />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#F1E2FC"
+        android:src="@drawable/add"
+        android:onClick="add"
+        app:backgroundTint="@color/black"
+        android:layout_alignParentRight="true">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <ListView
+        android:id="@+id/myListView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:gravity="center_horizontal"
+        android:outlineSpotShadowColor="@color/black"
+        android:screenReaderFocusable="true"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ListView>
+
+
+</RelativeLayout>
